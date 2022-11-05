@@ -1,0 +1,62 @@
+body.active-modal {
+	overflow-y: hidden;
+}
+
+@keyframes drop {
+	0% {
+	}
+	70% {
+		transform: translateY(200px);
+	}
+	100% {
+		transform: translateY(150px);
+	}
+}
+
+.btn-modal {
+	font-size: 18px;
+}
+
+.modal,
+.overlay {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}
+
+.modal {
+}
+
+.overlay {
+	background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+	position: absolute;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	line-height: 1.4;
+	background: #f1f1f1;
+	padding: 14px 28px;
+	border-radius: 3px;
+	max-width: 600px;
+	min-width: 300px;
+	border-radius: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 15px;
+	top: -400;
+	animation: 0.6s drop ease forwards;
+}
+
+.close-modal {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px 7px;
+	font-size: 10px;
+}
