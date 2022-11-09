@@ -1,11 +1,12 @@
 <div align="center">
   <a href="">
   <img src="https://i.ibb.co/x73XvFk/menu.png" height="100px" alt="favicon" border="0" />
-  <a href=""><h3> QR-Menu</h3></a>
+  <a href=""><h3>QR-Menu</h3></a>
   </a>
 
   <p align="center">
-   QR menu for restaurants and similar businesses.
+   QR menu for restaurants and similar businesses.<br>
+   <a href="https://qrmenu-tarkbzc.netlify.app/">Click here to try the app.</a>
   <hr/>
   <h4 align="center">Build with</h4>
    <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/reactjs_logo_icon_170805.png" height="50px" alt="trollface" border="0" />
