@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="">
+  <a href="https://github.com/tarikbzcoglu/QRMenu">
   <img src="https://i.ibb.co/x73XvFk/menu.png" height="100px" alt="favicon" border="0" />
   <a href=""><h3>QR-Menu</h3></a>
   </a>
