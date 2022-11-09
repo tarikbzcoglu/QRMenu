@@ -29,13 +29,32 @@ function App() {
 		}
 	}, [currentItems]);
 
+	const location = {
+		width: "50px",
+		height: "50px",
+		cursor: "pointer",
+		backgroundColor: "white",
+		borderRadius: "5rem",
+	};
+
 	return (
 		<>
-			<Modal
-				setCurrentItems={setCurrentItems}
-				menuItems={menuItems}
-				setMenuItems={setMenuItems}
-			/>
+			<div className="section-center">
+				<Modal
+					setCurrentItems={setCurrentItems}
+					menuItems={menuItems}
+					setMenuItems={setMenuItems}
+				/>
+				<a href="https://www.google.com/maps/place/%C4%B0stanbul/">
+					<lord-icon
+						src="https://cdn.lordicon.com/elzslyvl.json"
+						trigger="hover"
+						colors="primary:#000000,secondary:#e4e4e4"
+						state="hover-jump"
+						style={location}
+					></lord-icon>
+				</a>
+			</div>
 			<h2 className="header">🍔 Kev's 🍨</h2>
 			<section className="btn-container">
 				<button id="all" onClick={handleBtns} className="filter-btn">
